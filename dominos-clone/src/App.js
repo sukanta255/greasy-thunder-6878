@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from "./Components/Navbar/navbar"
 
 function App() {
   return (
     <div className="App">
-      <h1>Dominos App</h1>
+      <Navbar />
     </div>
   );
 }
