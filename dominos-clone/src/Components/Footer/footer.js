@@ -7,6 +7,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 
 function Footer() {
   return (
+    <div>
     <div className="footer">
       <div className="footer__first footer1">
         <h2>Menu</h2>
@@ -71,6 +72,10 @@ function Footer() {
           alt=""
         ></img>
       </div>
+    </div>
+    <div className="last__section">
+      <p>All Rights Reserved. Copyright Ⓒ Jubliant FoodWorks Ltd.</p>
+    </div>
     </div>
   );
 }

@@ -1,21 +1,29 @@
-import React from 'react';
-import {Link} from "react-router-dom";
-
+import React from "react";
 import "./navbar.css";
-import logo_icon from "./logo_dominos.svg"
 
-const navbar = () => {
+function Navbar() {
   return (
-    <div>
-        <nav className="navbar navbar-expand-md navbar-light fixed-top">
-            <div className="container">
-                {/* <Link className="navbar-logo" to="/"> */}
-                    <img src={logo_icon} alt="dominos_logo" />
-                {/* </Link> */}
-            </div>
-        </nav>
+    <div className="header">
+      <div className="header__left">
+        <img
+          src="https://1000logos.net/wp-content/uploads/2021/01/Dominos-logo.jpg"
+          alt="logo"
+        />
+      </div>
+      <div className="header__center">
+        <h3>our menu</h3>
+        <h3>store finder</h3>
+        <h3>gift card</h3>
+        <h3>corporate enquiry</h3>
+        <h3>contact</h3>
+      </div>
+      <div className="header__right">
+        <a href=" " className="header__rightButton">
+          Download App
+        </a>
+      </div>
     </div>
-  )
+  );
 }
 
-export default navbar
+export default Navbar;

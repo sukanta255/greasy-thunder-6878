@@ -86,9 +86,23 @@
     display: flex;
     justify-content: space-between;
     /* border: 1px solid black; */
+    cursor: pointer;
   }
   .social{
     /* border: 1px solid black; */
     text-align: center
   }
+  .social>img{
+    cursor: pointer;
+  }
+
+  .last__section {
+    background-color: #1a2735;
+    padding: 18px;
+    text-align: center;
+    color: #546273;
+    font-size: 16px;
+    border-top: 1px solid #546273;
+  }
+  
  
